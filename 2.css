@@ -1,0 +1,64 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body 
+{
+	background-color: #f6f9f9;
+}
+
+.gallery
+{
+	width: 100%;
+	min-height: 600px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.text
+{
+	font-family: "Corbel";
+	text-align: center;
+	font-weight: normal;
+	color: #222f45;
+	line-height: 1.7;
+}
+
+h1
+{
+	font-size: 31px;
+}
+
+h5
+{
+	font-size: 13px;
+	color: #979797;
+}
+
+.gallery_row1
+{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 770px;
+}
+
+
+
+.galyery_row1-street, .gallery_row1-girl, .gallery_row1-caps, .gallery_row1-tea, .gallery_row1-orangewall, .gallery_row1-bicycle
+{
+	float: left;
+	width: auto;
+	font-size: 0;
+	margin: 10px;
+
+}
+
+
+.clearfix
+{
+	clear: both;
+	height: 0px;
+}
+

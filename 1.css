@@ -1,0 +1,125 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body 
+{
+	background-color: #f6f9f9;
+}
+
+.gallery
+{
+	width: 100%;
+	min-height: 600px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.text
+{
+	font-family: "Corbel";
+	text-align: center;
+	font-weight: normal;
+	color: #222f45;
+	line-height: 1.7;
+}
+
+h1
+{
+	font-size: 31px;
+}
+
+h5
+{
+	font-size: 13px;
+	color: #979797;
+}
+
+.gallery_row1
+{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1150px;
+}
+
+
+
+.galyery_row1-street, .gallery_row1-girl, .gallery_row1-caps, .gallery_row1-tea, .gallery_row1-orangewall, .gallery_row1-bicycle
+{
+	float: left;
+	width: auto;
+	font-size: 0;
+	margin: 10px;
+	position: relative;
+
+}
+
+
+.clearfix
+{
+	clear: both;
+	height: 0px;
+}
+
+
+.img_row1-blue
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0.01;
+}
+
+.row1_button
+{
+	width: 359px;
+	height: 262px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0.01;
+}
+
+.img_row1-blue:hover
+{
+	opacity: 0.8;
+}
+
+.row1_button:hover
+{
+	opacity: 1;
+}
+
+.img_row1-blue:not(:hover)
+{
+	transition: 2s linear;
+}
+
+
+.row1_zoom, .row1_link
+{
+	position: absolute;
+	left: 35%;
+	right: 65%;
+	top: 45%;
+	bottom: 55%;
+	font-size: 0;
+	height: 45px;
+	width: 45px;
+	background: transparent;
+	border: transparent;
+
+
+}
+
+.row1_link
+{
+	left: 50%;
+	right: 50%;	
+}
