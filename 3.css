@@ -44,8 +44,6 @@ h5
 	max-width: 380px;
 }
 
-
-
 .galyery_row1-street, .gallery_row1-girl, .gallery_row1-caps, .gallery_row1-tea, .gallery_row1-orangewall, .gallery_row1-bicycle
 {
 	float: left;
@@ -54,7 +52,6 @@ h5
 	margin: 10px;
 
 }
-
 
 .clearfix
 {
